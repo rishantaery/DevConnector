@@ -11,6 +11,7 @@ const CommentItem = ({
     auth,
     deleteComment
 }) =>  (
+  <Fragment>
         <div class="comments">
         <div class="post bg-white p-1 my-1">
           <div>
@@ -38,6 +39,7 @@ const CommentItem = ({
           </div>
         </div>
         </div>
+        </Fragment>
     )
 
 CommentItem.propTypes = {
